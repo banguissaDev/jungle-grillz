@@ -6,6 +6,12 @@ import { AnimatedSection } from "./AnimatedSection";
 export default function FeaturedMenuSection() {
   return (
     <AnimatedSection className="py-16 px-4 md:py-24 md:px-16 bg-[#F4F0E6] relative overflow-hidden" animationType="fade-in-up">
+      {/* Background image for all screens */}
+      <div className="absolute inset-0 z-0">
+        <Image src="/fried-meat.jpg" alt="Grill Background" fill sizes="(max-width: 1280px) 100vw, 1920px" className="object-cover" />
+        <div className="absolute inset-0 bg-[#F4F0E6]/85" />
+      </div>
+
       <div className="text-center mb-10 md:mb-16 relative z-10">
         <AnimatedSection animationType="fade-in-down">
           <h2 className="text-xs font-bold tracking-[0.15em] uppercase text-darkBrown/60 mb-4">Featured Menu</h2>

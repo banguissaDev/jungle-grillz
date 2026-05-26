@@ -56,8 +56,8 @@ export default function Testimonials() {
               </svg>
             </div>
             
-            <p className="text-[#3B2F2F]/80 leading-relaxed text-[15px] mb-8 flex-grow">
-              {review.text}
+            <p className="text-[#3B2F2F]/80 leading-relaxed text-[15px] mb-8 flex-grow italic font-serif">
+              "{review.text}"
             </p>
             
             <div className="mt-auto">
