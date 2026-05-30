@@ -1,7 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import WeeklyPromosSection from "@/components/WeeklyPromosSection";
-import FeaturedMenuSection from "@/components/FeaturedMenuSection";
+import BestSellersMenu from "@/components/BestSellersMenu";
 import SignatureEventSection from "@/components/SignatureEventSection";
 import Testimonials from "@/components/Testimonials";
 import FAQSection from "@/components/FAQSection";
@@ -14,7 +14,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <WeeklyPromosSection />
-      <FeaturedMenuSection />
+      <BestSellersMenu />
       <SignatureEventSection />
       <Testimonials />
       <FAQSection />

@@ -5,7 +5,7 @@ import { AnimatedSection } from "./AnimatedSection";
 
 export default function SignatureEventSection() {
   return (
-    <AnimatedSection className="py-24 px-8 md:px-16 max-w-7xl mx-auto" animationType="fade-in-up">
+    <AnimatedSection id="events" className="py-24 px-8 md:px-16 max-w-7xl mx-auto" animationType="fade-in-up">
       <div className="bg-[#2a2c24] text-cream p-8 md:p-16 rounded-sm relative overflow-hidden flex flex-col lg:flex-row items-center gap-12 animate-scale-in">
         {/* Left Large Image */}
         <AnimatedSection className="relative w-full lg:w-3/5 h-100 lg:h-150 rounded overflow-hidden shadow-2xl hover:shadow-2xl transition-shadow" animationType="fade-in-left">

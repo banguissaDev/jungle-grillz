@@ -5,7 +5,7 @@ import { AnimatedSection } from "./AnimatedSection";
 
 export default function AboutSection() {
   return (
-    <AnimatedSection className="py-24 px-8 md:px-16 max-w-7xl mx-auto" animationType="fade-in-up">
+    <AnimatedSection id="about" className="py-24 px-8 md:px-16 max-w-7xl mx-auto" animationType="fade-in-up">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
         {/* Left Column */}
         <AnimatedSection animationType="fade-in-left">

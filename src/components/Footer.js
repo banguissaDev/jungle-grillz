@@ -5,7 +5,7 @@ import { AnimatedSection } from "./AnimatedSection";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#2E1610] text-cream pt-10 px-8 md:px-16 overflow-hidden relative">
+    <footer id="contact" className="bg-[#2E1610] text-cream pt-10 px-8 md:px-16 overflow-hidden relative">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between gap-12 lg:gap-24 mb-8 lg:mb-12 relative z-10">
         <AnimatedSection className="max-w-sm" animationType="fade-in-left">
            <h3 className="text-4xl md:text-5xl font-sans mb-6 tracking-tight leading-tight">Grilled to Perfection,<br/><span className="font-serif italic text-cream/90">Every Day</span></h3>

@@ -17,15 +17,18 @@ export default function HeroSection() {
 
       {/* Navbar */}
       <nav className="relative z-20 flex justify-between items-center px-8 py-6 text-cream/90 animate-fade-in-down">
-        <div 
-          className="flex items-center gap-3 cursor-pointer hover:text-white transition"
-          onClick={() => setIsMenuOpen(true)}
-        >
-          <div className="flex flex-col gap-[5px]">
-            <span className="w-6 h-px bg-current"></span>
-            <span className="w-6 h-px bg-current"></span>
+        <div className="flex items-center gap-8">
+          <div 
+            className="flex items-center gap-3 cursor-pointer hover:text-white transition"
+            onClick={() => setIsMenuOpen(true)}
+          >
+            <div className="flex flex-col gap-[5px]">
+              <span className="w-6 h-px bg-current"></span>
+              <span className="w-6 h-px bg-current"></span>
+            </div>
+            <span className="text-sm tracking-wide uppercase">Menu</span>
           </div>
-          <span className="text-sm tracking-wide uppercase">Menu</span>
+          <a href="#events" className="text-sm tracking-wide uppercase hover:text-white transition hidden sm:inline-block">Events</a>
         </div>
         <div className="flex items-center gap-4">
           <div className="relative w-12 h-12 rounded-full overflow-hidden border border-white/20">
@@ -58,10 +61,10 @@ export default function HeroSection() {
           
           <div className="flex flex-col items-center justify-center flex-1 gap-8 text-4xl md:text-6xl font-serif">
             <a href="#" className="hover:text-white hover:scale-105 transition-all" onClick={() => setIsMenuOpen(false)}>Home</a>
-            <a href="#" className="hover:text-white hover:scale-105 transition-all" onClick={() => setIsMenuOpen(false)}>About Us</a>
-            <a href="#" className="hover:text-white hover:scale-105 transition-all" onClick={() => setIsMenuOpen(false)}>Menu</a>
-            <a href="#" className="hover:text-white hover:scale-105 transition-all" onClick={() => setIsMenuOpen(false)}>Reservations</a>
-            <a href="#" className="hover:text-white hover:scale-105 transition-all" onClick={() => setIsMenuOpen(false)}>Contact</a>
+            <a href="#about" className="hover:text-white hover:scale-105 transition-all" onClick={() => setIsMenuOpen(false)}>About Us</a>
+            <a href="#best-sellers" className="hover:text-white hover:scale-105 transition-all" onClick={() => setIsMenuOpen(false)}>Menu</a>
+            <a href="#events" className="hover:text-white hover:scale-105 transition-all" onClick={() => setIsMenuOpen(false)}>Events</a>
+            <a href="#contact" className="hover:text-white hover:scale-105 transition-all" onClick={() => setIsMenuOpen(false)}>Contact</a>
           </div>
         </div>
       )}
