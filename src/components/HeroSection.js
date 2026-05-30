@@ -28,7 +28,6 @@ export default function HeroSection() {
             </div>
             <span className="text-sm tracking-wide uppercase">Menu</span>
           </div>
-          <a href="#events" className="text-sm tracking-wide uppercase hover:text-white transition hidden sm:inline-block">Events</a>
         </div>
         <div className="flex items-center gap-4">
           <div className="relative w-12 h-12 rounded-full overflow-hidden border border-white/20">
