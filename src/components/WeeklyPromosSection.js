@@ -17,18 +17,30 @@ export default function WeeklyPromosSection() {
       </div>
 
       {/* Promo Columns */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
-        <AnimatedSection className="flex flex-col md:border-r border-darkBrown/10 md:pr-6" animationType="fade-in-up">
-          <span className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Thursday</span>
-          <span className="text-sm text-darkBrown/70 uppercase tracking-widest">Cocktail Promos</span>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-center lg:text-left">
+        <AnimatedSection className="flex flex-col lg:border-r border-darkBrown/10 lg:pr-6" animationType="fade-in-up">
+          <span className="text-4xl md:text-5xl font-bold mb-3">Thursday</span>
+          <span className="text-sm text-[#4A1A1A] font-bold uppercase tracking-wider mb-1">Cocktail Promos</span>
+          <span className="text-xs text-darkBrown/60">Buy 1 Get 1 on Signature Cocktails</span>
         </AnimatedSection>
-        <AnimatedSection className="flex flex-col md:border-r border-darkBrown/10 md:px-6" animationType="fade-in-up" delay={0.1}>
-          <span className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Friday</span>
-          <span className="text-sm text-darkBrown/70 uppercase tracking-widest">After Work Chill</span>
+        
+        <AnimatedSection className="flex flex-col lg:border-r border-darkBrown/10 lg:px-6" animationType="fade-in-up" delay={0.1}>
+          <span className="text-4xl md:text-5xl font-bold mb-3">Friday</span>
+          <span className="text-sm text-[#4A1A1A] font-bold uppercase tracking-wider mb-1">After Work Chill</span>
+          <span className="text-xs text-darkBrown/60">Live DJ music & late-night grill sears</span>
         </AnimatedSection>
-        <AnimatedSection className="flex flex-col md:pl-6" animationType="fade-in-up" delay={0.2}>
-          <span className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Sunday</span>
-          <span className="text-sm text-darkBrown/70 uppercase tracking-widest">BBQ Party & Bottle Discounts</span>
+
+        <AnimatedSection className="flex flex-col lg:border-r border-darkBrown/10 lg:px-6" animationType="fade-in-up" delay={0.2}>
+          <span className="text-4xl md:text-5xl font-bold mb-3">Saturday</span>
+          <span className="text-sm text-[#4A1A1A] font-bold uppercase tracking-wider mb-1">Pizza & Cocktails</span>
+          <span className="text-xs text-darkBrown/70 font-semibold mb-0.5">Hot Chicken Pizza — Buy 1 Get 1</span>
+          <span className="text-xs text-darkBrown/60">All Cocktails at 7,000 RWF</span>
+        </AnimatedSection>
+        
+        <AnimatedSection className="flex flex-col lg:pl-6" animationType="fade-in-up" delay={0.3}>
+          <span className="text-4xl md:text-5xl font-bold mb-3">Sunday</span>
+          <span className="text-sm text-[#4A1A1A] font-bold uppercase tracking-wider mb-1">BBQ Party</span>
+          <span className="text-xs text-darkBrown/60">Bottle discounts & Sunday grill platters</span>
         </AnimatedSection>
       </div>
     </AnimatedSection>

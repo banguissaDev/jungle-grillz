@@ -7,6 +7,7 @@ import Testimonials from "@/components/Testimonials";
 import FAQSection from "@/components/FAQSection";
 import PreFooterCTA from "@/components/PreFooterCTA";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <FAQSection />
       <PreFooterCTA />
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
